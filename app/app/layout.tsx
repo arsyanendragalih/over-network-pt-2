@@ -71,7 +71,7 @@ export default async function RootLayout({
         <body
           className={`${cal.variable} ${matter.variable} ${inter.className}`}
         >
-          <div className='absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center'>
+          <div className='absolute bottom-1 left-0 right-0 top-0 flex items-center justify-center'>
             <div className='w-full max-w-xs space-y-6 rounded-xl border border-neutral-300 bg-neutral-400 px-6 py-4'>
               <p className='text-2xl font-bold'>Log in to Over Network</p>
               {
